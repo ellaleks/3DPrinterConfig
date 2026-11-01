@@ -1,0 +1,450 @@
+{
+  "snapshot_date": "2026-11-01",
+  "AD5X": {
+    "source": "live printer through Moonraker config-file API",
+    "config_files": 24,
+    "include_closure_complete": true
+  },
+  "AD5M": {
+    "source": "local files and last configuration dumps from September 2026 logs",
+    "fresh_snapshot": false,
+    "printer_offline": true,
+    "config_files": 9
+  },
+  "OrcaSlicer": {
+    "active_machine": "Flashforge AD5X 0.4 - My profile",
+    "user_profiles": 20,
+    "machine_profiles": 3,
+    "process_profiles": 6,
+    "filament_profiles": 11,
+    "system_dependencies": 29,
+    "unresolved_inheritance": []
+  },
+  "redacted_field_paths": [
+    "AD5M\\archived-2026-09\\moonraker.conf:authorization.enable_api_key",
+    "AD5X\\config\\moonraker.conf:authorization.enable_api_key",
+    "OrcaSlicer/user/current/machine/Flashforge AD 5M 0.4.json.print_host",
+    "OrcaSlicer/user/current/machine/Flashforge AD 5M 0.4.json.print_host_webui",
+    "OrcaSlicer/user/current/machine/Flashforge AD5X 0.4 - My profile.json.print_host",
+    "OrcaSlicer/user/current/machine/Flashforge AD5X 0.4 - My profile.json.print_host_webui"
+  ],
+  "excluded_from_public_copy": [
+    "OrcaSlicer.conf and connection/account state",
+    "*.info sync metadata",
+    "device manufacturer cloud/network JSON and file-slot state",
+    "raw Klipper logs",
+    "historical AD5X rw/printer-1970* snapshots"
+  ],
+  "files": [
+    {
+      "path": "AD5M/archived-2026-09/macros (1).cfg",
+      "sha256": "f655335b6f3a2f650267edeab58f9ae2c074c1b2a70c265b056d48667830a7a9",
+      "bytes": 18776
+    },
+    {
+      "path": "AD5M/archived-2026-09/macros (2).cfg",
+      "sha256": "f655335b6f3a2f650267edeab58f9ae2c074c1b2a70c265b056d48667830a7a9",
+      "bytes": 18776
+    },
+    {
+      "path": "AD5M/archived-2026-09/macros (3).cfg",
+      "sha256": "f655335b6f3a2f650267edeab58f9ae2c074c1b2a70c265b056d48667830a7a9",
+      "bytes": 18776
+    },
+    {
+      "path": "AD5M/archived-2026-09/macros (4).cfg",
+      "sha256": "f655335b6f3a2f650267edeab58f9ae2c074c1b2a70c265b056d48667830a7a9",
+      "bytes": 18776
+    },
+    {
+      "path": "AD5M/archived-2026-09/merged-config-from-log-earlier.cfg",
+      "sha256": "d09bb5f5dd989c7892f9c167ded7e512245908b27bf3e465c10ffec0e0ba88e8",
+      "bytes": 46798
+    },
+    {
+      "path": "AD5M/archived-2026-09/merged-config-from-log-later.cfg",
+      "sha256": "9c0bb957519a64b55dfaf406c12430a0f18001fab2bc61ba2228654e78e507c1",
+      "bytes": 46841
+    },
+    {
+      "path": "AD5M/archived-2026-09/moonraker.conf",
+      "sha256": "c7ac5045b0c641e078eb228b83cad56774428934a3ba3c7734f2c6add9f27a99",
+      "bytes": 1105
+    },
+    {
+      "path": "AD5M/archived-2026-09/printer.base (1).cfg",
+      "sha256": "bad8c0d01bdc2834735992dd3ae0d572e518a436938b02ca0d9d85534a4b5961",
+      "bytes": 6245
+    },
+    {
+      "path": "AD5M/archived-2026-09/timelapse.cfg",
+      "sha256": "0b03d0eda33af280e32278e07c8a722e2b39c8a41be315ca390ed3492ac17b89",
+      "bytes": 22909
+    },
+    {
+      "path": "AD5X/config/mod/ad5x_config_native.cfg",
+      "sha256": "512b3b39e0868524b4ffffb5462af557a922ff0eefd9b0b3f2261d0afbe76723",
+      "bytes": 64592
+    },
+    {
+      "path": "AD5X/config/mod/base.cfg",
+      "sha256": "76bd1f622e9972af8a691f8d31d83dd4f55c56f3112d8c9caa59545bfca848cf",
+      "bytes": 127843
+    },
+    {
+      "path": "AD5X/config/mod/base_mod.cfg",
+      "sha256": "6da64bd3c8d6de6755fac50dfdeb4d6900fc40963807310fe75dc07fe47fa462",
+      "bytes": 13379
+    },
+    {
+      "path": "AD5X/config/mod/generic.cfg",
+      "sha256": "d80c5873c07b4ddb9cbe8a742c4b960c6661939fa59e88a2027e50eff83b66ce",
+      "bytes": 22693
+    },
+    {
+      "path": "AD5X/config/mod/KAMP/Adaptive_Meshing.cfg",
+      "sha256": "6a3873f59ea8905c3a051ed1236027b6c48a4977284614670a910e0ad9e635f7",
+      "bytes": 12700
+    },
+    {
+      "path": "AD5X/config/mod/KAMP/KAMP_Settings.cfg",
+      "sha256": "044e73a0684f12e1797c7240586ef12cefbf48d72e88bf8cc14ee8c383b910f7",
+      "bytes": 4158
+    },
+    {
+      "path": "AD5X/config/mod/KAMP/Line_Purge.cfg",
+      "sha256": "fcc5b26a4a9acb10162db23137280f336705a8b9d1cc2d4675538140ffdfc284",
+      "bytes": 11803
+    },
+    {
+      "path": "AD5X/config/mod/KAMP/Smart_Park.cfg",
+      "sha256": "565bd7fa83e25881e3f2ddc06105af0ea61c1d5758ef26a745822f351a3724ce",
+      "bytes": 4817
+    },
+    {
+      "path": "AD5X/config/mod/mod.cfg",
+      "sha256": "d3c5a74eb00be736c03aad958b60734c66d17bf4b1a91a19cc0132eee3edd5d7",
+      "bytes": 104
+    },
+    {
+      "path": "AD5X/config/mod/shell.cfg",
+      "sha256": "55fce18d5c63907e4ba99a0783b9a1479b523f4ea5f09414872106dc81a7774c",
+      "bytes": 6809
+    },
+    {
+      "path": "AD5X/config/mod_data/extra_plugins.moonraker.conf",
+      "sha256": "6293ec3100bfc32e68ad54d86feab362050f7950add4ddda300e302d45d871e2",
+      "bytes": 440
+    },
+    {
+      "path": "AD5X/config/mod_data/lang.cfg",
+      "sha256": "13b4b0f9bb1dbbbb6955d5ee1610e6c7477dac0945772d8091f377784cdc1439",
+      "bytes": 26
+    },
+    {
+      "path": "AD5X/config/mod_data/nozzle.cfg",
+      "sha256": "68ad6df50763e5be192dcdfc06fa1ac6f79f65565f6e1d54d951f9efaa57a68e",
+      "bytes": 50
+    },
+    {
+      "path": "AD5X/config/mod_data/plugins/recommend/recommend.cfg",
+      "sha256": "cf5955506af0a6fe167f8955ef471d71d742cb76b39a9dd5050e61e80420d8db",
+      "bytes": 186
+    },
+    {
+      "path": "AD5X/config/mod_data/plugins/timelapse/moonraker.timelapse.cfg",
+      "sha256": "6c9cf4705bb7115faf12f71fe3295edae02b19e8b9146495d69551391030d93e",
+      "bytes": 274
+    },
+    {
+      "path": "AD5X/config/mod_data/plugins/timelapse/timelapse.cfg",
+      "sha256": "0b03d0eda33af280e32278e07c8a722e2b39c8a41be315ca390ed3492ac17b89",
+      "bytes": 22909
+    },
+    {
+      "path": "AD5X/config/mod_data/plugins.cfg",
+      "sha256": "a10e20c423f006f9a5dae83951e889e479918f08f364111241d4c04106da3b34",
+      "bytes": 88
+    },
+    {
+      "path": "AD5X/config/mod_data/plugins.moonraker.conf",
+      "sha256": "9033d8bcdee9b3bb3998d462f9732ecbf8b523be919eb5a3dedca1da147d660f",
+      "bytes": 55
+    },
+    {
+      "path": "AD5X/config/mod_data/user.cfg",
+      "sha256": "fdefd81c9125d9ad8ed171fcfc159aac36cc4a2769e3b79ee3992493a11d27d3",
+      "bytes": 29
+    },
+    {
+      "path": "AD5X/config/mod_data/user.moonraker.conf",
+      "sha256": "c16ed9461d88765ccf2a6f753d7ddce42e52b5e1e7308f6e9b4deeed365b1a43",
+      "bytes": 109
+    },
+    {
+      "path": "AD5X/config/mod_data/variables.cfg",
+      "sha256": "d174830d65c0493236be1900ec07d2ecacfef78a40b6fdb005ecff3eaba6e387",
+      "bytes": 699
+    },
+    {
+      "path": "AD5X/config/moonraker.conf",
+      "sha256": "a1b17c0265f37d0d21e5b77830aeedfd47fba8c90152248c819a2f65a6d61c78",
+      "bytes": 2031
+    },
+    {
+      "path": "AD5X/config/printer.base.cfg",
+      "sha256": "618fbecbff43dd40f8a64da735a5fc71e718a941c38f0ca32fdae5801500f374",
+      "bytes": 5297
+    },
+    {
+      "path": "AD5X/config/printer.cfg",
+      "sha256": "568e97915ee91b8c781df65da40c6399d8f4383ebc5ba7018aed4b633dd39b4f",
+      "bytes": 3796
+    },
+    {
+      "path": "OrcaSlicer/legacy-system-dependencies/OrcaSlicer/Creality/filament/Creality Generic ABS.json",
+      "sha256": "9fbcbacd5fe1531f9250ab50d1e0f55e397b80fc06bf1816545f8996a2d9e517",
+      "bytes": 2673
+    },
+    {
+      "path": "OrcaSlicer/legacy-system-dependencies/OrcaSlicer/Creality/filament/Creality Generic PETG.json",
+      "sha256": "27d1a24ade599f4bbd5a9e76922af8ccbb297731554bf6b4272b25bf3830d616",
+      "bytes": 3223
+    },
+    {
+      "path": "OrcaSlicer/legacy-system-dependencies/OrcaSlicer/Creality/filament/Creality Generic PLA.json",
+      "sha256": "a0855223ce5af734aabcc2c9c29be63bdb7b50837fc615c73e138abe20bec1c3",
+      "bytes": 2724
+    },
+    {
+      "path": "OrcaSlicer/legacy-system-dependencies/OrcaSlicer_AD5M/Custom/filament/My Generic PLA.json",
+      "sha256": "83f71412206b7aa3dd7e707701ac9381354ba3955485750f88a02c6594ced7f0",
+      "bytes": 479
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/filament/Flashforge Generic HS PLA.json",
+      "sha256": "82d899a9cb771354e0b51c8e19066ee4a0ddd0e0a3b0809c54c2f2c72a5e780f",
+      "bytes": 5322
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/machine/fdm_adventurer5m_common.json",
+      "sha256": "036b22b1f87155583514fbee7bab9082968c3b34bd78f8fb99760fba948178ea",
+      "bytes": 3020
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/machine/fdm_flashforge_common.json",
+      "sha256": "653fd8484d4027ff6cd62d7f73b5cdcf99e0940483a4dd394c9676326573643b",
+      "bytes": 4012
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/machine/Flashforge AD5X 0.4 nozzle.json",
+      "sha256": "167fa2a9b60c6c40756be0ab5724dd2d59c0be66172d8decde35ed01d5947144",
+      "bytes": 5821
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/machine/Flashforge Adventurer 5M 0.4 Nozzle.json",
+      "sha256": "21d4300c57f46f69dc8c21f67176fbfe15e7803de2ddebff0ea5a3561e567712",
+      "bytes": 616
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/machine/Flashforge Adventurer 5M Pro 0.4 Nozzle.json",
+      "sha256": "12fdf482e020a27a3c3f151065e589ec2ab65880242b732b16f0db3c53211210",
+      "bytes": 628
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/process/0.12mm Fine @Flashforge AD5M 0.4 Nozzle.json",
+      "sha256": "8b5222a5716f9a471d9fc3baade44f95b38dee328ea9789885fc133703196427",
+      "bytes": 938
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/process/0.20mm Standard @FF AD5X.json",
+      "sha256": "116e4201d014668600dbed66c52bc14ba8adc22656f2021caa0f3637a4360b79",
+      "bytes": 852
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/process/0.20mm Standard @Flashforge AD5M 0.4 Nozzle.json",
+      "sha256": "ab717183a79a7a4864de233d06b290d1d40ecb69acaac88c625a2154a7dfce82",
+      "bytes": 601
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/process/0.20mm Standard @Flashforge AD5M Pro 0.4 Nozzle.json",
+      "sha256": "9f834f2dfd5b64941457cd166c82a8bae84c96a8ba7a53c59dcc8b097e803fc2",
+      "bytes": 602
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/process/0.30mm Standard @Flashforge AD5M 0.6 Nozzle.json",
+      "sha256": "63f1ae8960a9c04cd69ce87520015cf3553ca5d8f5164e4338bf730c14392a8a",
+      "bytes": 601
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/process/fdm_process_flashforge_0.20.json",
+      "sha256": "7d1ba8de1c1a3b86526f898b9e27644f7fb52c7d79c851a67ae9d0021b34bd55",
+      "bytes": 711
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/process/fdm_process_flashforge_0.30.json",
+      "sha256": "f32b45d518cfa43210f8758c0b31cdd558066b186bcd8e297b088f9173a45a9e",
+      "bytes": 1005
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/Flashforge/process/fdm_process_flashforge_common.json",
+      "sha256": "f51577f2eba17fb77f467095d3bad91d154c91ce769f5f6dde53e63aa3a842c5",
+      "bytes": 2582
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/FlyingBear/machine/fdm_machine_common.json",
+      "sha256": "ac677d3c5d97dfd67da7a14ccb4c7db95bd3ddc352f421988807edb4a994f34d",
+      "bytes": 4625
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/FlyingBear/process/fdm_process_common.json",
+      "sha256": "4e6b5def8ae474396aabb108983d330ec7e703358e8a850bc58029ff545613cb",
+      "bytes": 7582
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/OrcaFilamentLibrary/filament/base/fdm_filament_abs.json",
+      "sha256": "bd0d25bf0425413a8df881325b3e6bf348e0ddf7967ce628474e1724d341fc26",
+      "bytes": 1757
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/OrcaFilamentLibrary/filament/base/fdm_filament_common.json",
+      "sha256": "ca1f74ce497a26fba4c637b96a975d2edf863c175ef498d8145fcc74b3fcf5ca",
+      "bytes": 3543
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/OrcaFilamentLibrary/filament/base/fdm_filament_pet.json",
+      "sha256": "16a748fc1e0c705d226dc38d6cd43b52b33bd5161963c874b70ddc726ef742da",
+      "bytes": 1306
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/OrcaFilamentLibrary/filament/base/fdm_filament_pla.json",
+      "sha256": "de8609e1567babc32fbea28606142ed7cee4227de4842d1f22d3422158a85606",
+      "bytes": 1696
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/OrcaFilamentLibrary/filament/eSUN/eSUN PETG @base.json",
+      "sha256": "16929fd5c99948603d45707e28c41fbe274edbfa32912df9fa107204b3b7ee95",
+      "bytes": 1051
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/OrcaFilamentLibrary/filament/eSUN/eSUN PETG @System.json",
+      "sha256": "1db803a23e2ad83e8dd79cc695f630f2dec07e29ada9fcad6db5c7ab89a4ae4c",
+      "bytes": 224
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/OrcaFilamentLibrary/filament/eSUN/eSUN PLA-Basic @base.json",
+      "sha256": "c8017c3ee44dc1195d4395bc03826249236cff19bf9c5c70eac18e92315da614",
+      "bytes": 506
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/OrcaFilamentLibrary/filament/eSUN/eSUN PLA-Basic @System.json",
+      "sha256": "8aa427ba3d6a24fa2970cffbca481964c000a42c77cf9e53bbfb23d067102d50",
+      "bytes": 234
+    },
+    {
+      "path": "OrcaSlicer/system-dependencies/OrcaFilamentLibrary/filament/Generic PETG @System.json",
+      "sha256": "3d01ed481c471bf4dc4fc982fbe605e664f2b53cb343d277ab3e656e2cc45966",
+      "bytes": 298
+    },
+    {
+      "path": "OrcaSlicer/user/current/filament/eSUN PETG-Basic - AD5X.json",
+      "sha256": "f9159b128c443a047cc7de9fe972354da2cfbf1a20b66ad486aa38b2dd215f56",
+      "bytes": 978
+    },
+    {
+      "path": "OrcaSlicer/user/current/filament/eSUN PLA-Basic - AD5X.json",
+      "sha256": "63f4a1438413b4eba286ef752c0d9908afe2134eecd7520c43035b259c0d380e",
+      "bytes": 1123
+    },
+    {
+      "path": "OrcaSlicer/user/current/filament/PETG Sunlu.json",
+      "sha256": "0eec06080d212c3f0402a8f03443f683f373ff52a1587f36a8b50a9ed87e6bdb",
+      "bytes": 1095
+    },
+    {
+      "path": "OrcaSlicer/user/current/filament/PLA - Meta.json",
+      "sha256": "c9dcf2b588cc54b8675273d21940c1b664f188fb5af8ee292222a1d7889cc684",
+      "bytes": 495
+    },
+    {
+      "path": "OrcaSlicer/user/current/filament/SUNLU HS PLA.json",
+      "sha256": "d6034e18ee2a6af0c93bcb6a03e68271101e926d578c30f608b9ef619e383c2e",
+      "bytes": 629
+    },
+    {
+      "path": "OrcaSlicer/user/current/machine/Flashforge AD 5M 0.4.json",
+      "sha256": "74ae53eaef37efb5f128805be351c1199988f1c0228e80ac820ada3701a06e6d",
+      "bytes": 739
+    },
+    {
+      "path": "OrcaSlicer/user/current/machine/Flashforge AD5X 0.4 - My profile.json",
+      "sha256": "cd8cb1cb175f62778bff4fadc1571411f03fd01741b6eb92b6fff673b3c368dc",
+      "bytes": 2030
+    },
+    {
+      "path": "OrcaSlicer/user/current/machine/Flashforge AD5X 0.4 nozzle - My profile.json",
+      "sha256": "7d1026244610f1c0cc8d7499e6602d95aea8e33f497c830f37ebb86a377564b4",
+      "bytes": 993
+    },
+    {
+      "path": "OrcaSlicer/user/current/process/0.12mm Fine @Flashforge AD5M 0.4 Nozzle - Копировать.json",
+      "sha256": "0aaba9d7f31a39541cd285e7c9848826ea7d56875396c45f9f3c2faec34c9486",
+      "bytes": 839
+    },
+    {
+      "path": "OrcaSlicer/user/current/process/0.20mm Standard @FF AD5X - PLA.json",
+      "sha256": "92dc5c7526f70aae4abc0c8182f1ebadad079d8b6c9247ab56902b9a73f72aa5",
+      "bytes": 808
+    },
+    {
+      "path": "OrcaSlicer/user/current/process/0.20mm Standard @Flashforge AD5M 0.4 Nozzle - Копировать.json",
+      "sha256": "982fab19bc5f8c1c141b198a3ccffc3ecfdfbd7c9571406da3b3ba45562698d0",
+      "bytes": 882
+    },
+    {
+      "path": "OrcaSlicer/user/legacy/filament/Creality Generic PETG - Копировать.json",
+      "sha256": "3a414f872f827af5cfe2b72d9cba7a6f48ec277f91d28f219699dafa5cdb174b",
+      "bytes": 775
+    },
+    {
+      "path": "OrcaSlicer/user/legacy/filament/Creality Generic PLA - Meta.json",
+      "sha256": "a0283f3eab2488f7d2cf7187548616a3d4ea076491ad396b6499db80b39e483e",
+      "bytes": 535
+    },
+    {
+      "path": "OrcaSlicer/user/legacy/filament/eSUN ABS+.json",
+      "sha256": "82b216772179d682b68240286cbdd8ad5baacde15748f6bb740c2a33a1782aae",
+      "bytes": 1544
+    },
+    {
+      "path": "OrcaSlicer/user/legacy/filament/SUNLU eABS.json",
+      "sha256": "e3475e88a42b2b48caa9d2953f61382a3250af1d8534b23e44ed68eb0c5d4f8c",
+      "bytes": 1045
+    },
+    {
+      "path": "OrcaSlicer/user/legacy/filament/SUNLU PETG.json",
+      "sha256": "2106a975921af3d4dc3666afe15511e345d431970e5e3377526d4d1f65286e7c",
+      "bytes": 1002
+    },
+    {
+      "path": "OrcaSlicer/user/legacy/filament/TPU eSun.json",
+      "sha256": "7b0e30eede400342ad8d7bcdafac60a5c9046b96dc2338ad69087c9ab699ea29",
+      "bytes": 810
+    },
+    {
+      "path": "OrcaSlicer/user/legacy/process/0.20mm Standard @Flashforge AD5M 0.4 Nozzle - probe.json",
+      "sha256": "6c7b4db768bfee7eac26ead360442d4c91de83d63a410fb4fd8986dda15f1fad",
+      "bytes": 564
+    },
+    {
+      "path": "OrcaSlicer/user/legacy/process/0.20mm Standard @Flashforge AD5M 0.4 Nozzle - Копировать.json",
+      "sha256": "466e1385502affe4cd43d0a42511b54855f8447a81e32eda142447e9f23c5b5b",
+      "bytes": 551
+    },
+    {
+      "path": "OrcaSlicer/user/legacy/process/0.30mm Standard @Flashforge AD5M 0.6 Nozzle - Копировать.json",
+      "sha256": "a1442ab589f9b8202ba0517738100e3147f3a8c492678bc1f28dbc3d3310c03d",
+      "bytes": 866
+    }
+  ]
+}
